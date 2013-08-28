@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_entries">
+　　        <item>大</item>
+　　        <item>中</item>
+　　        <item>小</item>
+　　    </string-array>
+    <string-array name="setting_entriesvaluse">
+　　        <item>large</item>
+　　        <item>middle</item>
+　　        <item>small</item>
+　　    </string-array>
+
+    <string-array name="pics_tabs">
+　　        <item>精选</item>
+　　        <item>时尚</item>
+　　        <item>百态</item>
+　　        <item>美女</item>
+　　        <item>奇趣</item>
+　　        <item>摄影</item>
+　　        <item>热门</item>
+　　        <item>娱乐</item>
+　　    </string-array>
+
+    
+    <string-array name="news_tabs">
+　　        <item>要闻</item>
+　　        <item>微闻</item>
+　　        <item>IT</item>
+　　        <item>NBA</item>
+　　        <item>影视</item>
+　　        <item>星座</item>
+　　        <item>汽车</item>
+　　    </string-array>
+    
+    <string-array name="text_size">
+　　        <item>大</item>
+　　        <item>中</item>
+　　        <item>小</item>
+　　    </string-array>
+    
+</resources>

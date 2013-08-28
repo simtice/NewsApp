@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_item_pics_title"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/tv_item_pics_image"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scaleType="centerCrop"
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <TextView
+            android:id="@+id/tv_item_pics_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_item_pics_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_item_pics_remark"
+            android:gravity="center_vertical"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_item_pics_pics"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="图片：1"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

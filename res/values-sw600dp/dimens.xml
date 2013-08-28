@@ -1,0 +1,5 @@
+<resources>
+
+   <dimen name="image_pager_text_size">13dp</dimen>
+
+</resources>

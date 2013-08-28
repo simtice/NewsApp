@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ll_main__bottom_bar"
+         />
+
+    <LinearLayout
+        android:id="@+id/ll_main__bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:orientation="horizontal" 
+        >
+        <TextView
+            android:id="@+id/tv_main_footer_tab1"
+            style="@style/main_tabs"
+            android:text="@string/dingyue" />
+
+        <TextView
+            android:id="@+id/tv_main_footer_tab2"
+            style="@style/main_tabs"
+            android:text="@string/news" />
+
+        <TextView
+            android:id="@+id/tv_main_footer_tab3"
+            style="@style/main_tabs"
+            android:text="@string/pics" />
+        <TextView
+            android:id="@+id/tv_main_footer_tab4"
+            style="@style/main_tabs"
+            android:text="@string/more" />
+    </LinearLayout>
+
+</RelativeLayout>

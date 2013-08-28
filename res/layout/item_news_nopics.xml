@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_news_sub_title"
+        style="@style/item_title"
+        android:text="标题" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_news_sub_description"
+                style="@style/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="描述" />
+
+            <TextView
+                android:id="@+id/tv_news_sub_remark"
+                style="@style/item_time_or_remark"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="评论" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="10dp">
+    
+    <TextView 
+        android:id="@+id/tv_news_detial_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="神吐槽"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        />
+    <TextView 
+        android:id="@+id/tv_news_detial_time"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="神吐槽"
+        android:textSize="15sp"
+         android:layout_below="@+id/tv_news_detial_title"
+         android:gravity="center_vertical"
+        />
+
+    <WebView
+        android:id="@+id/wv1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tv_news_detial_time" 
+        android:layout_above="@+id/layout"/>
+    
+    <RelativeLayout android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/collections_sort_by_size"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:onClick="menu"
+            />
+        
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/navigation_back"
+            android:background="@color/transparent"
+            android:onClick="back"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

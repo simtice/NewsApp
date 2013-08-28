@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="hint_color_search">#ffc2c3c3</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    
+ 	
+    <color name="gray">#8F8F8F</color>
+    <color name="red">#FF0000</color>
+    <color name="common_bg">#efebef</color>
+    <color name="list_select_bg">#ffffcc</color>
+    <color name="list_divider">#CFCFCF</color>
+	<color name="black">#000000</color>
+	
+	<color name="window_background">#f4f4f4</color>
+	<color name="window_square_color1">#99006699</color>
+	<color name="window_square_color2">#99000000</color>
+	
+	
+</resources>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/news_detail_back"
+        android:icon="@drawable/navigation_back"
+        android:showAsAction="ifRoom|withText"
+        android:title="返回"/>
+    
+     <item
+        android:id="@+id/news_detail_menu"
+        android:icon="@drawable/collections_sort_by_size"
+        android:showAsAction="ifRoom|withText"
+        android:title="字体大小"/>
+
+</menu>
